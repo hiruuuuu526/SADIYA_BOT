@@ -95,7 +95,7 @@ _*🕺Enjoy your time with us!😊*_
 
 *🧍ꜱᴀᴅɪʏᴀ _ʙᴏᴛ ᴍᴀᴅᴇ ʙʏ ꜱᴀᴅᴇᴇꜱʜᴀ ʜɪʀᴜꜱʜᴀɴ🧍* `;
 
-conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url `IMG-20241126-WA0001.jpg` }, caption: up })
+conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url `https://i.ibb.co/Q93G4Bh/3ea783af9da8f675.jpg` }, caption: up })
 
 }
 })
