@@ -1,7 +1,7 @@
 {
   "name": "SADIYA_BOT",
   "version": "2.0.7",
-  "description": "manisha-md WhatsApp bot created manisha With using Node.js",
+  "description": "sadiya_bot WhatsApp bot created manisha With using Node.js",
   "main": "index.js",
   "scripts": {
     "start": "pm2 start index.js --deep-monitoring --attach --name SADIYA_BOT",
