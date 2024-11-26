@@ -97,7 +97,7 @@ _*🕺Enjoy your time with us!😊*_
 
 *🧍ᴄʀᴇᴀᴛᴇ ʙʏ ꜱᴀᴅᴇᴇꜱʜᴀ🧍* `;
 
-conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://files.catbox.moe/tjhxsh.jpg` }, caption: up })
+conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://files.catbox.moe/stxzru.jpg` }, caption: up })
 
 }
 })
