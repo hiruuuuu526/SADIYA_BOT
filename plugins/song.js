@@ -17,9 +17,9 @@ const url = data.url
     
     
 let desc = `
-⫷⦁[ * '-'_MANISHA-MD-SONG_DOWNLOADER_'-' * ]⦁⫸
+⫷⦁[ * '-'_SADIYA_BOT-SONG_DOWNLOADER_'-' * ]⦁⫸
 
-*🎧 MANISHA-MD SONG DOWNLOADER . .⚙️*
+*🎧 SADIYA_BOT SONG DOWNLOADER . .⚙️*
 
 ➥ *Title:* ${data.title} 
 ➥ *Duration:* ${data.timestamp} 
@@ -27,7 +27,7 @@ let desc = `
 ➥ *Uploaded On:* ${data.ago} 
 ➥ *Link:* ${data.url} 
 
-> *©𝗠𝗔𝗡𝗜𝗦𝗛𝗔-𝗠𝗗*
+> *©𝗦𝗔𝗗𝗜𝗬𝗔_𝗕𝗢𝗧*
 `
 
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});
@@ -65,9 +65,9 @@ const url = data.url
     
     
 let desc = `
-⫷⦁[ * '-'_MANISHA-MD-VIDEO_DOWNLOADER_'-' * ]⦁⫸ 
+⫷⦁[ * '-'_SADIYA_BOT-VIDEO_DOWNLOADER_'-' * ]⦁⫸ 
 
-*🎬 MANISHA-MD VIDEO DOWNLOADER . .⚙️
+*🎬 SADIYA_BOT VIDEO DOWNLOADER . .⚙️
 
 ➥ *Title:* ${data.title} 
 ➥ *Duration:* ${data.timestamp} 
@@ -75,7 +75,7 @@ let desc = `
 ➥ *Uploaded On:* ${data.ago} 
 ➥ *Link:* ${data.url} 
 
-> *©𝗠𝗔𝗡𝗜𝗦𝗛𝗔-𝗠𝗗*
+> *©𝗦𝗔𝗗𝗜𝗬𝗔_𝗕𝗢𝗧*
 `
 
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});
