@@ -26,13 +26,9 @@ try{
 
 let about = ` *👋 Hello ${pushname}*
 
-*💗Contact Bot Owner1:* https://wa.me/94759934522
+*💗Contact Bot Owner1:* https://wa.me/94726840185
 
-*❤️‍🔥Contact Bot Owner2:* https://wa.me/94721551183
-
-*❤️‍🔥Contact Bot Owner3:* https://wa.me/94719106067
-
-*💗©ᴍᴀɴɪꜱʜᴀ-ᴍᴅ ᴍᴀᴅᴇ ʙʏ ᴍᴀɴɪꜱʜᴀ💗*`
+*💗©ꜱᴀᴅɪʏᴀ_ʙᴏᴛ ᴍᴀᴅᴇ ʙʏ ꜱᴀᴅᴇᴇꜱʜᴀ💗*`
 
 return await conn.sendMessage(from,{image: {url:`https://files.catbox.moe/tjhxsh.jpg`},caption:about},{quoted: mek})
 
