@@ -7,7 +7,7 @@
 </p>
 <p align="center"> 
   <a href="">
-    <img alt=Support height="390" src="IMG-20241126-WA0001.jpg">
+    <img alt=Support height="390" src="https://i.ibb.co/Q93G4Bh/3ea783af9da8f675.jpg">
 
   
 <h2 align="center">𝗖𝗢𝗡𝗡𝗘𝗖𝗧 𝗧𝗢 𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣</h2>
