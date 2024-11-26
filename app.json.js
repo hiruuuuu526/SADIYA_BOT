@@ -1,7 +1,7 @@
 {
   "name": "SADIYA_BOT",
   "description": "Javascript WhatsApp bot made by sadeesha",
-  "logo": "url",
+  "logo": "IMG-20241126-WA0001.jpg",
   "keywords": ["bot"],
   "success_url": "/",
 
