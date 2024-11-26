@@ -22,13 +22,13 @@ const { File } = require('megajs')
 const ownerNumber = ['94726840185']
 
 //===================SESSION-AUTH============================
-if (!fs.existsSync(__dirname + '/sadiya_bot/creds.json')) {
+if (!fs.existsSync(__dirname + '/manisha_md/creds.json')) {
 if(!config.SESSION_ID) return console.log('Please add your session to SESSION_ID env !!')
 const sessdata = config.SESSION_ID
 const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
 filer.download((err, data) => {
 if(err) throw err
-fs.writeFile(__dirname + '/sadiya_bot/creds.json', data, () => {
+fs.writeFile(__dirname + '/manisha_md/creds.json', data, () => {
 console.log("Session downloaded ✅")
 })})}
 
@@ -38,7 +38,7 @@ const port = process.env.PORT || 8000;
 
 //=============================================
 
-async function connectToSADIYA_BOT() {
+async function connectToWA() {
 //connact mongodb==========
 const connectDB = require('./lib/mongodb')
 connectDB();
@@ -49,7 +49,7 @@ const prefix = config.PREFIX
 //========================
 
 
-console.log("Connecting SADIYA BOT 💫...");
+console.log("Connecting SADIYA_BOT 💫...");
 const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/manisha_md/')
 var { version } = await fetchLatestBaileysVersion()
 
@@ -79,23 +79,25 @@ require("./plugins/" + plugin);
 console.log('Plugins installed successful ✅')
 console.log('Bot connected to whatsapp ✅')
 
-let up = `💗 *_SADIYA BOT Connected Successfully!_* ✅ 
+let up = `🧑‍🔧 *_SADIYA_BOT Connected Successfully!_* ✅ 
 
---- *💗🎉 _Welcome to SADIYA BOT!_* 🎉💗
+--- *🧑‍🔧🎉 _Welcome to SADIYA_BOT!_* 🎉🧑‍🔧 
 
 *🔹 PREFIX:* ${prefix}
 
 *🔹 OWNER:* ${ownerNumber}
 
-*🔹 MADE:* SADEESHA HIRUSHAN
+*🔹 MADE BY:* ꜱᴀᴅᴇᴇꜱʜᴀ
 
-_* සාදරයෙන් පිලිගන්නවා SADIYA BOT WHATSAPP BOT වෙත ඔබගේ ගිණුම දැන් සක්‍රියයි. SADIYA_BOT පිළිබද සම්පූර්ණ අවබෝධයක් ලබා ගැනීමට 📖.support විධානය භාවිතා කරන්න. SADIYA_BOT යනූ සීඝ්‍රයෙන් වර්ධනය වන Whatsapp රොබෝවෙකි මෙය ඔබගේ LOG අංකයයි මෙහි විධාන භාවිතයෙන් වළකින්න.⚠️ 💗*._ 
-        
+_Thank you for using_ *🕺SADIYA_BOT💗.*
+_We're here to make your experience enjoyable and seamless._
+_If you need any help or have questions, don't hesitate to ask._ 🌝💗
+
 _*🕺Enjoy your time with us!😊*_
 
-*🧍ꜱᴀᴅɪʏᴀ _ʙᴏᴛ ᴍᴀᴅᴇ ʙʏ ꜱᴀᴅᴇᴇꜱʜᴀ ʜɪʀᴜꜱʜᴀɴ🧍* `;
+*🧍ᴄʀᴇᴀᴛᴇ ʙʏ ꜱᴀᴅᴇᴇꜱʜᴀ🧍* `;
 
-conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url `https://i.ibb.co/Q93G4Bh/3ea783af9da8f675.jpg` }, caption: up })
+conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://files.catbox.moe/tjhxsh.jpg` }, caption: up })
 
 }
 })
@@ -166,11 +168,7 @@ if(!isOwner && !isGroup && config.MODE === "groups") return
 //=========OWNER - REACTION ===============================  
 if(senderNumber.includes("94726840185")){
 if(isReact) return
-m.react("💗")
-}
-if(senderNumber.includes("94759934522")){
-if(isReact) return
-m.react("🥷")
+m.react("❤️‍🔥")
 }
 //=====================✓
 
@@ -215,5 +213,3 @@ app.listen(port, () => console.log(`sadiya bot Server listening on port http://l
 setTimeout(() => {
 connectToWA()
 }, 4000);  
-
-
