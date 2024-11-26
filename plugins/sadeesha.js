@@ -30,7 +30,7 @@ let about = ` *👋 Hello ${pushname}*
 
 *💗©ꜱᴀᴅɪʏᴀ_ʙᴏᴛ ᴍᴀᴅᴇ ʙʏ ꜱᴀᴅᴇᴇꜱʜᴀ💗*`
 
-return await conn.sendMessage(from,{image: {url:`https://files.catbox.moe/tjhxsh.jpg`},caption:about},{quoted: mek})
+return await conn.sendMessage(from,{image: {url:`https://files.catbox.moe/stxzru.jpg`},caption:about},{quoted: mek})
 
 }catch(e){
 
