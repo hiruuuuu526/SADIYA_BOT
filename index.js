@@ -22,13 +22,13 @@ const { File } = require('megajs')
 const ownerNumber = ['94726840185']
 
 //===================SESSION-AUTH============================
-if (!fs.existsSync(__dirname + '/manisha_md/creds.json')) {
+if (!fs.existsSync(__dirname + '/sadiya_bot/creds.json')) {
 if(!config.SESSION_ID) return console.log('Please add your session to SESSION_ID env !!')
 const sessdata = config.SESSION_ID
 const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
 filer.download((err, data) => {
 if(err) throw err
-fs.writeFile(__dirname + '/manisha_md/creds.json', data, () => {
+fs.writeFile(__dirname + '/sadiya_bot/creds.json', data, () => {
 console.log("Session downloaded ✅")
 })})}
 
@@ -50,7 +50,7 @@ const prefix = config.PREFIX
 
 
 console.log("Connecting SADIYA_BOT 💫...");
-const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/manisha_md/')
+const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/sadiya_bot/')
 var { version } = await fetchLatestBaileysVersion()
 
 const conn = makeWASocket({
