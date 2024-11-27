@@ -8,6 +8,7 @@ fetchLatestBaileysVersion,
 Browsers
 } = require('@whiskeysockets/baileys')
 
+const l = console.log
 const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, fetchJson } = require('./lib/functions')
 const fs = require('fs')
 const P = require('pino')
@@ -29,7 +30,7 @@ const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
 filer.download((err, data) => {
 if(err) throw err
 fs.writeFile(__dirname + '/sadiya_bot/creds.json', data, () => {
-console.log("Session downloaded ✅")
+console.log("Session downloaded 🧑‍🔧")
 })})}
 
 const express = require("express");
@@ -49,14 +50,14 @@ const prefix = config.PREFIX
 //========================
 
 
-console.log("Connecting SADIYA_BOT 💫...");
+console.log("Connecting SADIYA_BOT 🧑‍🔧...");
 const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/sadiya_bot/')
 var { version } = await fetchLatestBaileysVersion()
 
 const conn = makeWASocket({
         logger: P({ level: 'silent' }),
         printQRInTerminal: false,
-        browser: Browsers.macOS("brave"),
+        browser: Browsers.macOS("Firefox"),
         syncFullHistory: true,
         auth: state,
         version
@@ -69,35 +70,33 @@ if (lastDisconnect.error.output.statusCode !== DisconnectReason.loggedOut) {
 connectToWA()
 }
 } else if (connection === 'open') {
-console.log('💫 Installing')
+console.log('🧑‍🔧 Installing')
 const path = require('path');
 fs.readdirSync("./plugins/").forEach((plugin) => {
 if (path.extname(plugin).toLowerCase() == ".js") {
 require("./plugins/" + plugin);
 }
 });
-console.log('Plugins installed successful ✅')
-console.log('Bot connected to whatsapp ✅')
+console.log('Plugins installed successful 🧚‍♂️')
+console.log('Bot connected to whatsapp 🧚‍♂️')
 
-let up = `🧑‍🔧 *_SADIYA_BOT Connected Successfully!_* ✅ 
+let up = `🧑‍🔧 *_SADIYA_BOT Connected Successfully!_* 🧑‍🔧
 
---- *🧑‍🔧🎉 _Welcome to SADIYA_BOT!_* 🎉🧑‍🔧 
-
-*🔹 PREFIX:* ${prefix}
+--- *🧍🌹 _Welcome to MANISHA-MD!_* 🌹🧍
 
 *🔹 OWNER:* ${ownerNumber}
 
-*🔹 MADE BY:* ꜱᴀᴅᴇᴇꜱʜᴀ
+*🔹 MADE BY:* sadeesha hirushan
 
-_Thank you for using_ *🕺SADIYA_BOT💗.*
+_Thank you for using_ *🧑‍🔧SADIYA_BOT🙃.*
 _We're here to make your experience enjoyable and seamless._
 _If you need any help or have questions, don't hesitate to ask._ 🌝💗
 
 _*🕺Enjoy your time with us!😊*_
 
-*🧍ᴄʀᴇᴀᴛᴇ ʙʏ ꜱᴀᴅᴇᴇꜱʜᴀ🧍* `;
+*🧑‍🔧SADIYA_BOT MADE BY SADEESHA🧑‍🔧* `;
 
-conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://files.catbox.moe/stxzru.jpg` }, caption: up })
+conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `url` }, caption: up })
 
 }
 })
@@ -168,11 +167,10 @@ if(!isOwner && !isGroup && config.MODE === "groups") return
 //=========OWNER - REACTION ===============================  
 if(senderNumber.includes("94726840185")){
 if(isReact) return
-m.react("❤️‍🔥")
+m.react("🧑‍🔧")
 }
 //=====================✓
-
-        
+       
 const events = require('./command')
 const cmdName = isCmd ? body.slice(1).trim().split(" ")[0].toLowerCase() : false;
 if (isCmd) {
@@ -207,7 +205,7 @@ command.function(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, i
 })
 }
 app.get("/", (req, res) => {
-res.send("hey, SADIYA_BOT started✅");
+res.send("hey, sadiya bot started🧑‍🔧");
 });
 app.listen(port, () => console.log(`sadiya bot Server listening on port http://localhost:${port}`));
 setTimeout(() => {
