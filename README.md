@@ -24,3 +24,8 @@
 
 You can see the Paire Code at **[PAIR CODE](https://express-pairing-code2-1.onrender.com//).**
 
+Owner Sadeesha
+specail thankz for manisha md
+
+thank for useing for sadiya md whats app bot
+
