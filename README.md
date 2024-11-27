@@ -13,7 +13,7 @@
 <h2 align="center">𝗖𝗢𝗡𝗡𝗘𝗖𝗧 𝗧𝗢 𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣</h2>
 
 <p align="center">
-<a href='https://github.com/Randimasl/MANISHA-MD/fork' target="_blank"><img alt='Fork Repo' src='https://img.shields.io/badge/-Fork Repo-grey?style=for-the-badge&logo=github&logoColor=white'/< width=115 height=28/p></a>
+<a href='/fork' target="_blank"><img alt='Fork Repo' src='https://img.shields.io/badge/-Fork Repo-grey?style=for-the-badge&logo=github&logoColor=white'/< width=115 height=28/p></a>
     </p>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
@@ -24,7 +24,9 @@
 
 You can see the Paire Code at **[PAIR CODE](https://express-pairing-code2-1.onrender.com//).**
 
+#### DEPLOY IN REPLIT
 
+   <a href='https://replit.com/@sadiyahiru/SADIYABOT' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-REPLIT-orange?style=for-the-badge&logo=replit&logoColor=white'/></a>
 ## OWNER  
 
 Owner Sadeesha
