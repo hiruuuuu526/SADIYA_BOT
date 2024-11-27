@@ -96,7 +96,7 @@ _*🕺Enjoy your time with us!😊*_
 
 *🧑‍🔧SADIYA_BOT MADE BY SADEESHA🧑‍🔧* `;
 
-conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `url` }, caption: up })
+conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://files.catbox.moe/stxzru.jpg` }, caption: up })
 
 }
 })
