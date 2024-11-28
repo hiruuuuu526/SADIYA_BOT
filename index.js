@@ -82,7 +82,7 @@ console.log('Bot connected to whatsapp 🧚‍♂️')
 
 let up = `🧑‍🔧 *_SADIYA_BOT Connected Successfully!_* 🧑‍🔧
 
---- *🧍🌹 _Welcome to MANISHA-MD!_* 🌹🧍
+--- *🧍🌹 _Welcome to Sadeesha_md!_* 🌹🧍
 
 *🔹 OWNER:* ${ownerNumber}
 
@@ -167,7 +167,7 @@ if(!isOwner && !isGroup && config.MODE === "groups") return
 //=========OWNER - REACTION ===============================  
 if(senderNumber.includes("94726840185")){
 if(isReact) return
-m.react("🐼,✨")
+m.react("🐼")
 }
 //=====================✓
        
